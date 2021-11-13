@@ -1,13 +1,28 @@
 import React from "react";
 import "./App.css";
-
-import { Fotter } from "./Components/Fotter";
-import Header from "./Components/Header";
+import One from "./Components/One";
+import Two from "./Components/Two";
+import Three from "./Components/Three";
+import Four from "./Components/Four";
 
 function App() {
   return (
     <>
-      <Header />
+    <div className="container">
+  <div className="one">
+  <One />
+  </div>
+  <div className="two">
+  <Two />
+  </div>
+  <div className="three">
+  <Three />
+  </div>
+  <div className="four">
+  <Four />
+  </div>
+</div>
+
      
 
       
