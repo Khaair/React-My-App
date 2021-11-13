@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+}
+
+.container {
+    height: 700px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: 65px auto;
+}
+
+.one {
+    background-color: #FFFFFF;
+    grid-column: 1/-1;
+    border: 2px solid #EEF3F8;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 30px auto;
+    justify-content: right;
+}
+
+
+    
+    
+}
+
+.one .icon {}
+
+.one img {
+    margin-left: 77px;
+    margin-top: 10px;
+}
+
+.one input {
+    background-color: #EEF3F8;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.head-input {
+    margin-top: 10px;
+   
+}
+.sorasori-input{
+    padding: 10px 16px 10px 37px;
+
+}
+
+.icon-title {
+    margin-left: 77px;
+}
+
+.two {
+    grid-column: 1/5;
+    background-color: #EEF3F8;
+  
+}
+
+.three {
+    background-color: #EEF3F8;
+    grid-column: 5/11;
+  
+}
+
+.four {
+    background-color: #EEF3F8;
+    grid-column: 11/-1;
+
+   
+    
+}
+
+
+
+.card-two-1 {
+    background-color: white;
+    height: 350px;
+    width: 250px;
+    border: 1px solid #d0d1d5;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 90px;
+    padding: 12px;
+    padding-left: 2px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .30);
+    display: grid;
+    justify-content: left;
+}
+.left-logo{
+    padding-top: -4px;
+}
+.left-logo-title{
+    text-align: center;
+}
+.left-logo-title2{
+    text-align: center;
+    color: #666666;
+}
+.my-item{
+    display: flex;
+    
+    
+    
+}
+
+.my-item2{
+    display: flex;
+    margin-top: 8px;
+    
+    
+}
+.stl{
+    display: flex;
+    display: inline-block;
+    
+}
+
+.card-two-2 {
+    background-color: white;
+    height: 350px;
+    width: 250px;
+    border: 1px solid #d0d1d5;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 90px;
+    padding: 12px;
+    padding-left: 2px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .30);
+    display: grid;
+    justify-content: left;
+}
+
+.card-three-1 {
+    background-color: white;
+    height: 110px;
+    width: auto;
+    border: 1px solid #d0d1d5;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 12px;
+    padding-left: 2px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .30);
+    display: grid;
+    justify-content: left;
+}
+
+.card-three-2{
+    background-color: white;
+    height: 400px;
+    width: auto;
+    border: 1px solid #d0d1d5;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 12px;
+    padding-left: 2px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .30);
+    display: grid;
+    justify-content: left;
+}
+
+.post-image{
+    
+    width: 565px;
+    padding: 10px;
+}
+
+.post-text{
+    padding: 10px;
+}
+
+.card-three-2 ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.card-three-2 a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    display: block;
+}
+
+.card-four-1 ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.card-four-1 a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    display: block;
+}
+
+.card-three-1 ul li {
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.card-three-1 ul a {
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.card-four-1 {
+    background-color: white;
+    height: 350px;
+    width: 300px;
+    border: 1px solid #d0d1d5;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 12px;
+    padding-left: 2px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .30);
+    display: grid;
+}
+
+.image-ahar {
+    width: 400px;
+}
+
+.input-2{
+    background-color: #EEF3F8;
+    border-radius: 25px;
+    border-style: none;
+    padding: 8px 280px 20px 37px;
+   
+}
+
+.fotter-text{
+    text-align: center;
+    padding: 20px;
+    color: #666666;
+}

@@ -1,14 +1,17 @@
 import React from "react";
 import "./App.css";
-import Header from "./Components/Header";
-import Body from "./Components/Body";
+
 import { Fotter } from "./Components/Fotter";
+import Header from "./Components/Header";
+
 function App() {
   return (
     <>
       <Header />
-      <Body />
-      <Fotter />
+     
+
+      
+      
     </>
   );
 }
